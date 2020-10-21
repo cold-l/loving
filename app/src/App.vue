@@ -66,7 +66,7 @@ export default {
 /* 白色背景太单调了。来点背景 */
 html {
   color: rgb(222,222,222);
-  background: rgb(0,43,54); 
+  background: rgb(0,43,54);
 }
 /* 文字太近了 */
 .styleEditor {
@@ -90,21 +90,21 @@ html{
           perspective: 1000px;
 }
 .styleEditor {
-  position: fixed; 
+  position: fixed;
   ${ isPc ? 'left: 0;' : 'left:0;right:0;margin:auto;'}
-  top: 0; 
-  -webkit-transition: none; 
-  transition: none;   
+  top: 0;
+  -webkit-transition: none;
+  transition: none;
   ${ isPc ? '-webkit-transform: rotateY(10deg) translateZ(-100px) ;transform: rotateY(10deg) translateZ(-100px) ;' : '-webkit-transform: rotateX(-10deg) translateZ(-100px) ;transform: rotateX(-10deg) translateZ(-100px) ;' }
   ${ isPc ? '' : '-webkit-transform-origin: 50% 0% 0;transform-origin: 50% 0% 0;' }
 }
 
 /* 再来一张信纸 */
 .resumeEditor{
-  position: fixed; 
+  position: fixed;
   ${ isPc ? 'right: 0;' : 'left:0;right:0;margin:auto;'}
   ${ isPc ? 'top: 0;' : 'bottom:2%;'}
-  padding: .5em;  
+  padding: .5em;
   ${ isPc ? 'margin: .5em;' : ''}
   ${ isPc ? 'width: 48%;height: 96%;' : 'width: 96%;height: 50%;' }
   border: 1px solid;
@@ -149,8 +149,8 @@ html{
   counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;            
-  content: counters(section, ".") " ";  
+  counter-increment: section;
+  content: counters(section, ".") " ";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
@@ -158,13 +158,11 @@ html{
   padding: .5em;
   background: rgba(221,221,221,.5);
 }
-/*   完结END    */
-/*   我是彩蛋   */
-/*   能力一般   */
-/*   水平有限   */
-/*  想知道彩蛋  */
-/*   请联系QQ   */
-/*   且听风吟   */
+/*      */
+/*    */
+/*    */
+/*    */
+
 `
             ],
             currentMarkdown: '',
